@@ -488,7 +488,7 @@ namespace WinFormsApp_club.Forms
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "SociosForm";
-            Text = "SociosForm 👥";
+            Text = "Socios 👥";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

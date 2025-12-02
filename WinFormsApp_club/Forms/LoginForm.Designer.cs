@@ -107,7 +107,7 @@
             Controls.Add(txtClave);
             Controls.Add(txtUsuario);
             Name = "LoginForm";
-            Text = "LoginForm";
+            Text = "Login 🔑";
             Load += LoginForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
