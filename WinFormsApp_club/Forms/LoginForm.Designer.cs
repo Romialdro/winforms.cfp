@@ -27,21 +27,23 @@
             label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
+            //
             // txtUsuario
-            // 
+            //
             txtUsuario.Location = new Point(296, 269);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(164, 27);
             txtUsuario.TabIndex = 0;
-            // 
+            txtUsuario.PlaceholderText = "Ingrese su usuario"; 
+            //
             // txtClave
-            // 
+            //
             txtClave.Location = new Point(296, 354);
             txtClave.Name = "txtClave";
             txtClave.Size = new Size(164, 27);
             txtClave.TabIndex = 1;
             txtClave.UseSystemPasswordChar = true;
+            txtClave.PlaceholderText = "Ingrese su contraseña"; 
             // 
             // btnIngresar
             // 
